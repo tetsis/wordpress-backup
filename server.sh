@@ -12,3 +12,6 @@ cp -a /var/www/html/blog .
 mysqldump -u root -p(passowd) wordpress > wordpress.dump
 
 tar zcvf wordpress-data-${WEEK}.tar.gz blog wordpress.dump
+
+rm -rf blog
+rm -f wordpress.dump
