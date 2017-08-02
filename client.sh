@@ -7,4 +7,4 @@ mkdir /root/wordpress-backup
 cd /root/wordpress-backup
 rm ${FILENAME}
 
-sshpass -p (password) scp -o StrictHostKeyChecking=no root@www.tetsis.com:/root/wordpress-backup/${FILENAME} .
+sshpass -p(password) scp -o StrictHostKeyChecking=no root@www.tetsis.com:/root/wordpress-backup/${FILENAME} .
