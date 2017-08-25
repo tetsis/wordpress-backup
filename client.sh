@@ -8,4 +8,4 @@ mkdir /root/wordpress-backup
 cd /root/wordpress-backup
 rm ${FILENAME}
 
-sshpass scp -o StrictHostKeyChecking=no root@${HOSTNAME}:/root/wordpress-backup/${FILENAME} .
+scp -o StrictHostKeyChecking=no root@${HOSTNAME}:/root/wordpress-backup/${FILENAME} .
